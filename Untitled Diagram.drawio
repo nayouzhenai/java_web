@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:57:09.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="l8lTYWP4mN0TFNyuoOY8" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T06:58:31.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="3CKD4A2WxcKOoBQxz4lV" version="15.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -125,7 +125,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jO0gXllOkAHdYUoeTZ_i-55" value="商户ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jO0gXllOkAHdYUoeTZ_i-54">
+        <mxCell id="jO0gXllOkAHdYUoeTZ_i-55" value="微信商户ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jO0gXllOkAHdYUoeTZ_i-54">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jO0gXllOkAHdYUoeTZ_i-56" value="微信应用ID【app_id】" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jO0gXllOkAHdYUoeTZ_i-54">
@@ -160,7 +160,7 @@
         <mxCell id="jO0gXllOkAHdYUoeTZ_i-68" value="消息加解密密钥" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jO0gXllOkAHdYUoeTZ_i-65">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jO0gXllOkAHdYUoeTZ_i-69" value="回调类型" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jO0gXllOkAHdYUoeTZ_i-65">
+        <mxCell id="jO0gXllOkAHdYUoeTZ_i-69" value="回调类型  关注/发送消息 等" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jO0gXllOkAHdYUoeTZ_i-65">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jO0gXllOkAHdYUoeTZ_i-70" value="回调的URL" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jO0gXllOkAHdYUoeTZ_i-65">
@@ -176,6 +176,15 @@
           <mxGeometry x="460.0014285714287" y="539.9957142857143" as="geometry">
             <mxPoint x="5" y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jO0gXllOkAHdYUoeTZ_i-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jO0gXllOkAHdYUoeTZ_i-57" target="jO0gXllOkAHdYUoeTZ_i-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jO0gXllOkAHdYUoeTZ_i-77" value="1 ： n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610.0014285714287" y="649.9957142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="jO0gXllOkAHdYUoeTZ_i-78" value="app_id关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="617.0041849676907" y="680.0004837802633" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
