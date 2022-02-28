@@ -1,15 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T03:41:19.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="lD7pmftf__PJGNsMzxaj" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T06:26:19.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UvGbOzWtFvbCG7QBfY0F" version="16.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2212" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="c1VBtgolilOhCN_6KWPB-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="c1VBtgolilOhCN_6KWPB-44">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="c1VBtgolilOhCN_6KWPB-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="95" y="179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-52" value="&amp;nbsp; n : 1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1VBtgolilOhCN_6KWPB-51">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-52" value="&amp;nbsp; n : 1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="c1VBtgolilOhCN_6KWPB-51" vertex="1" connectable="0">
           <mxGeometry x="-0.1853" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -62,13 +62,13 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="cashier_code  收银单单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-12" value="content 内容" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-12" value="content 内容" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-13" value="flag  是否处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-13" value="flag  是否处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-14" value="created_date   创建时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-14" value="created_date   创建时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="104" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
@@ -100,7 +100,7 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--24" value="改动sap编码，商品大类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--2" target="zkfFHV4jXpPFQw0GAbJ--20">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--2" target="zkfFHV4jXpPFQw0GAbJ--20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="175" />
@@ -108,121 +108,150 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-7" value="1：n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-7" value="1：n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="390" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--5" target="zkfFHV4jXpPFQw0GAbJ--6">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--5" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-62" value="&amp;nbsp; 1 :&amp;nbsp; n&amp;nbsp; &amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1VBtgolilOhCN_6KWPB-10">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-62" value="&amp;nbsp; 1 :&amp;nbsp; n&amp;nbsp; &amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="c1VBtgolilOhCN_6KWPB-10" vertex="1" connectable="0">
           <mxGeometry x="0.0153" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-17" value="记录订单状态乱序的表cashier_order_state_log" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-17" value="记录订单状态乱序的表cashier_order_state_log" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="450" y="350" width="290" height="202" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-18" value="state_date  云购商城订单状态发生时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-17">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-18" value="state_date  云购商城订单状态发生时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-17" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-28" value="state_code  云购商城订单状态码" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-17">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-28" value="state_code  云购商城订单状态码" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-17" vertex="1">
           <mxGeometry y="52" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-19" value="cashier_code  收银单单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-17">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-19" value="cashier_code  收银单单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-17" vertex="1">
           <mxGeometry y="78" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-20" value="cashier_id  收银单主键id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-17">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-20" value="cashier_id  收银单主键id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-17" vertex="1">
           <mxGeometry y="104" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-21" value="code  收银单订单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-17">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-21" value="code  收银单订单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-17" vertex="1">
           <mxGeometry y="130" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-22" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-17">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-22" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-17" vertex="1">
           <mxGeometry y="156" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-29" value="flag  是否处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-17">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-29" value="flag  是否处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-17" vertex="1">
           <mxGeometry y="176" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--8" target="c1VBtgolilOhCN_6KWPB-20">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--8" target="c1VBtgolilOhCN_6KWPB-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-32" value="1 :&amp;nbsp; n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1VBtgolilOhCN_6KWPB-26">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-32" value="1 :&amp;nbsp; n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="c1VBtgolilOhCN_6KWPB-26" vertex="1" connectable="0">
           <mxGeometry x="0.192" y="9" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-33" value="收银订单历史记录cashier_order_status_history" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-33" value="收银订单历史记录cashier_order_status_history" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-350" y="350" width="320" height="262" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-34" value="cashier_order_id  收银单订单id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-34" value="cashier_order_id  收银单订单id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-35" value="cashier_order_code  收银单订单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-35" value="cashier_order_code  收银单订单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="52" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-36" value="cashier_order_state  收银单订单状态" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-36" value="cashier_order_state  收银单订单状态" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="78" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-37" value="state_changed_date  收银单订单状态变更时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-37" value="state_changed_date  收银单订单状态变更时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="104" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-38" value="remark  收银单订单历史记录说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-38" value="remark  收银单订单历史记录说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="130" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-39" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-39" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="156" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-40" value="cashier_code  收银单单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-40" value="cashier_code  收银单单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="176" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-54" value="cashier_id  收银单主键id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-33">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-54" value="cashier_id  收银单主键id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-33" vertex="1">
           <mxGeometry y="202" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-41" value="收银单历史记录cashier_status_history" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-41" value="收银单历史记录cashier_status_history" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-340" y="90" width="320" height="202" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-42" value="cashier_id  收银单主键id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-41">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-42" value="cashier_id  收银单主键id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-41" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-43" value="cashier_code  收银单单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-41">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-43" value="cashier_code  收银单单号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-41" vertex="1">
           <mxGeometry y="52" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-44" value="state  收银单状态" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-41">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-44" value="state  收银单状态" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-41" vertex="1">
           <mxGeometry y="78" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-45" value="remark  收银单历史记录说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-41">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-45" value="remark  收银单历史记录说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-41" vertex="1">
           <mxGeometry y="104" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-46" value="created_date 创建时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-41">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-46" value="created_date 创建时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-41" vertex="1">
           <mxGeometry y="130" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-47" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-41">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-47" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-41" vertex="1">
           <mxGeometry y="156" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-48" value="audited   收银单审核标志" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c1VBtgolilOhCN_6KWPB-41">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-48" value="audited   收银单审核标志" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c1VBtgolilOhCN_6KWPB-41" vertex="1">
           <mxGeometry y="176" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--8" target="c1VBtgolilOhCN_6KWPB-39">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--8" target="c1VBtgolilOhCN_6KWPB-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-56" value="&amp;nbsp;n&amp;nbsp; &amp;nbsp;:&amp;nbsp; 1&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1VBtgolilOhCN_6KWPB-55">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-56" value="&amp;nbsp;n&amp;nbsp; &amp;nbsp;:&amp;nbsp; 1&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="c1VBtgolilOhCN_6KWPB-55" vertex="1" connectable="0">
           <mxGeometry x="0.0973" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--8" target="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--8" target="zkfFHV4jXpPFQw0GAbJ--13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c1VBtgolilOhCN_6KWPB-61" value="&amp;nbsp; &amp;nbsp;1:&amp;nbsp; n&amp;nbsp; &amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1VBtgolilOhCN_6KWPB-60">
+        <mxCell id="c1VBtgolilOhCN_6KWPB-61" value="&amp;nbsp; &amp;nbsp;1:&amp;nbsp; n&amp;nbsp; &amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="c1VBtgolilOhCN_6KWPB-60" vertex="1" connectable="0">
           <mxGeometry x="-0.3333" y="-9" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-1" value="通知表（阈值）" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-350" y="900" width="290" height="240" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-2" value="title 标题" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-3" value="content 内容" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-4" value="type  通知类型  threshold 阈值通知" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-5" value="state  通知处理状态 /  Handled  / UN_HANDLED" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="104" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-6" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="130" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-9" value="cabinet_code  柜号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="150" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-11" value="created_date  创建时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="176" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GPew4ABGaU1Nr6BLO9_A-12" value="ext_data         外部扩展数据json格式" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GPew4ABGaU1Nr6BLO9_A-1">
+          <mxGeometry y="202" width="290" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
