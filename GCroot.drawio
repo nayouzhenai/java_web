@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T06:25:35.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Wg258gotlvNNYFdda2Ql" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T06:30:59.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="1lQbl9_3920oQVya0koH" version="17.2.4" type="github">
   <diagram id="6nroXhzHqXDf4n0dbmEr" name="第 1 页">
     <mxGraphModel dx="1778" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
           <mxGeometry x="220" y="750" width="406" height="167" as="geometry" />
         </mxCell>
         <mxCell id="phjD3vrbrcSyOuB8pBKA-67" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://javaguide.cn/assets/%E6%A0%87%E8%AE%B0-%E6%B8%85%E9%99%A4%E7%AE%97%E6%B3%95.c1fbd0fe.jpeg;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1380" width="810" height="666.69" as="geometry" />
+          <mxGeometry x="240" y="1380" width="810" height="670" as="geometry" />
         </mxCell>
         <mxCell id="phjD3vrbrcSyOuB8pBKA-70" value="垃圾收集算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;rounded=0;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="238" y="1090" width="388" height="37" as="geometry" />
