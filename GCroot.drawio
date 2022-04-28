@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T07:15:40.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="RUZ3hiDXk3RfOlJIAHAs" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T07:22:39.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="n7zSEAYmDKtqcD6oa6C7" version="17.2.4" type="github">
   <diagram id="6nroXhzHqXDf4n0dbmEr" name="第 1 页">
     <mxGraphModel dx="1778" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -86,8 +86,14 @@
         <mxCell id="phjD3vrbrcSyOuB8pBKA-72" value="&lt;h3 id=&quot;_3-1-标记-清除算法&quot; tabindex=&quot;-1&quot; style=&quot;font-weight: 500; line-height: 1.25; font-size: 1.35rem; margin-bottom: 0.5rem; outline: 0px; color: rgb(44, 62, 80); font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;3.1 标记-清除算法&lt;/h3&gt;&lt;p style=&quot;line-height: 1.7; text-align: justify; word-break: break-word; overflow-wrap: break-word; color: rgb(44, 62, 80); font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;该算法分为“标记”和“清除”阶段：首先标记出所有不需要回收的对象，在标记完成后统一回收掉所有没有被标记的对象。它是最基础的收集算法，后续的算法都是对其不足进行改进得到。这种垃圾收集算法会带来两个明显的问题：&lt;/p&gt;&lt;ol style=&quot;padding-left: 1.2em; line-height: 1.7; color: rgb(44, 62, 80); font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li&gt;&lt;strong style=&quot;font-weight: 600&quot;&gt;效率问题&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-weight: 600&quot;&gt;空间问题（标记清除后会产生大量不连续的碎片）&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="243" y="1090" width="550" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="phjD3vrbrcSyOuB8pBKA-97" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#d79b00;fillColor=#ffe6cc;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="1002.56" y="690" width="57.44" height="400" as="geometry" />
+        <mxCell id="phjD3vrbrcSyOuB8pBKA-103" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="730" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phjD3vrbrcSyOuB8pBKA-108" value="" style="endArrow=none;dashed=1;html=1;shadow=0;labelBackgroundColor=default;sketch=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#7EA6E0;strokeWidth=1;shape=connector;jumpSize=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="1310" as="sourcePoint" />
+            <mxPoint x="1104.38" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
