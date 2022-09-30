@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T01:26:27.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1z-TP-Gg58g6FpiJ9Xef" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-30T01:32:46.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nokdzSGyhcAc7s9i9xIz" version="20.3.6" type="github" pages="3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -530,6 +530,47 @@
         </mxCell>
         <mxCell id="Ar0qu3_9_dMpsi89eCV4-11" value="&lt;b&gt;电话条PC端&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="549" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#82b366;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=classic;fillColor=#d5e8d4;gradientColor=#97d077;" edge="1" parent="1" source="Ar0qu3_9_dMpsi89eCV4-14" target="Ar0qu3_9_dMpsi89eCV4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-14" value="&lt;b&gt;应用&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="3000" width="270" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-13" value="Log" style="html=1;strokeColor=#2D7600;fillColor=#60a917;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;sketch=0;shape=mxgraph.sitemap.log;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="3077" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#82b366;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=classic;fillColor=#d5e8d4;gradientColor=#97d077;" edge="1" parent="1" source="Ar0qu3_9_dMpsi89eCV4-17" target="Ar0qu3_9_dMpsi89eCV4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-17" value="&lt;b&gt;应用&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="3190" width="270" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-18" value="Log" style="html=1;strokeColor=#2D7600;fillColor=#60a917;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;sketch=0;shape=mxgraph.sitemap.log;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="3267" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#82b366;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=classic;fillColor=#d5e8d4;gradientColor=#97d077;" edge="1" parent="1" source="Ar0qu3_9_dMpsi89eCV4-19" target="Ar0qu3_9_dMpsi89eCV4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-19" value="&lt;b&gt;logstash 日志收集器&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="3090" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#82b366;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=classic;fillColor=#d5e8d4;gradientColor=#97d077;" edge="1" parent="1" source="Ar0qu3_9_dMpsi89eCV4-22" target="Ar0qu3_9_dMpsi89eCV4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-27" value="报警数据发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Ar0qu3_9_dMpsi89eCV4-26">
+          <mxGeometry x="0.275" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-22" value="&lt;b&gt;kafka stream 实时流计算&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="3090" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-24" value="&lt;b&gt;kafka集群&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="3090" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0qu3_9_dMpsi89eCV4-25" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.vrealize_log_insight;rounded=0;glass=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="2730" width="260" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
