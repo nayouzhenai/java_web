@@ -271,8 +271,8 @@
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;spacingBottom=1;shadow=0;flowAnimation=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="460.0000000000001" as="sourcePoint" />
-            <mxPoint x="320" y="460.0000000000001" as="targetPoint" />
+            <mxPoint x="180" y="199.6600000000001" as="sourcePoint" />
+            <mxPoint x="330" y="199.6600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-12" value="写入开始位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rs6t9YKta3dcOvNx-yZl-10" vertex="1" connectable="0">
@@ -282,8 +282,8 @@
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;spacingBottom=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="469.99999999999994" as="sourcePoint" />
-            <mxPoint x="560" y="470.34" as="targetPoint" />
+            <mxPoint x="740" y="399.99999999999994" as="sourcePoint" />
+            <mxPoint x="600" y="400.34" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-16" value="数据上报位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rs6t9YKta3dcOvNx-yZl-15" vertex="1" connectable="0">
@@ -293,8 +293,8 @@
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;spacingBottom=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="400.0000000000001" as="sourcePoint" />
-            <mxPoint x="320" y="400.0000000000001" as="targetPoint" />
+            <mxPoint x="180" y="499.6600000000001" as="sourcePoint" />
+            <mxPoint x="330" y="499.6600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-18" value="写入结束位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rs6t9YKta3dcOvNx-yZl-17" vertex="1" connectable="0">
@@ -309,7 +309,7 @@
           <mxGeometry x="494" y="180" width="40" height="410" as="geometry" />
         </mxCell>
         <mxCell id="6vn3mfsr0GH0d7ao19SA-2" value="config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
