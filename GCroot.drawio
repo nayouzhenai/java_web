@@ -282,8 +282,8 @@
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;spacingBottom=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="199.65999999999997" as="sourcePoint" />
-            <mxPoint x="580" y="199.65999999999997" as="targetPoint" />
+            <mxPoint x="720" y="439.65999999999997" as="sourcePoint" />
+            <mxPoint x="580" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-16" value="数据上报位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rs6t9YKta3dcOvNx-yZl-15" vertex="1" connectable="0">
@@ -307,6 +307,9 @@
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-22" value="page页" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;shadow=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="494" y="180" width="40" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6vn3mfsr0GH0d7ao19SA-2" value="config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
