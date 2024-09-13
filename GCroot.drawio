@@ -311,6 +311,12 @@
         <mxCell id="6vn3mfsr0GH0d7ao19SA-2" value="config" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_LN4vAXOgH2_M59l6bAB-17" value="User" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="170" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LN4vAXOgH2_M59l6bAB-18" value="student" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="414" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
