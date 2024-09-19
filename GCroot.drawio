@@ -328,9 +328,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v8WO_AMg7t2E7YOS06QS-8" value="取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="v8WO_AMg7t2E7YOS06QS-7">
+        <mxCell id="v8WO_AMg7t2E7YOS06QS-8" value="取消预约" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="v8WO_AMg7t2E7YOS06QS-7">
           <mxGeometry x="0.0186" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v8WO_AMg7t2E7YOS06QS-2" value="已预约" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
