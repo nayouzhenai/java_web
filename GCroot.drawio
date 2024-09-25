@@ -282,8 +282,8 @@
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;spacingBottom=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="350" as="sourcePoint" />
-            <mxPoint x="640" y="350.3399999999999" as="targetPoint" />
+            <mxPoint x="790" y="359.58" as="sourcePoint" />
+            <mxPoint x="650" y="359.9199999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-16" value="数据上报位置开始" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rs6t9YKta3dcOvNx-yZl-15" vertex="1" connectable="0">
