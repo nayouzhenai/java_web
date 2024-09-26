@@ -241,7 +241,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EYRAopBzLL5sWHENBdAD" name="第 4 页">
-    <mxGraphModel dx="1430" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -308,7 +308,7 @@
         <mxCell id="Rs6t9YKta3dcOvNx-yZl-22" value="page页" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;shadow=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="574" y="280" width="40" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="6vn3mfsr0GH0d7ao19SA-2" value="config" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="6vn3mfsr0GH0d7ao19SA-2" value="config1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="434" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v8WO_AMg7t2E7YOS06QS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;shadow=0;flowAnimation=1;" parent="1" source="v8WO_AMg7t2E7YOS06QS-1" target="v8WO_AMg7t2E7YOS06QS-2" edge="1">
@@ -338,6 +338,9 @@
         </mxCell>
         <mxCell id="v8WO_AMg7t2E7YOS06QS-3" value="解除预占" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="429" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IHcXjAVHvtiCiqV_NhCl-1" value="config2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
