@@ -425,6 +425,11 @@
         <mxCell id="vo5_fUDakvxgKuiAdnZY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.023;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=3;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="vo5_fUDakvxgKuiAdnZY-4" target="vo5_fUDakvxgKuiAdnZY-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Xh-Z-r_3Uq9DUZm3Ed1n-6" value="维护" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;" vertex="1" connectable="0" parent="vo5_fUDakvxgKuiAdnZY-16">
+          <mxGeometry x="-0.1338" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vo5_fUDakvxgKuiAdnZY-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;tv_id: { tv_node_ip:port&amp;nbsp; }&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;tv_id: { app_node_ip:port ,&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;userId&amp;nbsp;}&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="900" y="690" width="340" height="150" as="geometry" />
         </mxCell>
