@@ -437,8 +437,8 @@
         <mxCell id="Xh-Z-r_3Uq9DUZm3Ed1n-3" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;sketch=1;jiggle=2;curveFitting=1;align=right;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;rotation=-180;direction=east;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="827" y="840" width="365" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Xh-Z-r_3Uq9DUZm3Ed1n-4" value="等待" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rounded=0;shadow=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;rotation=-182;" vertex="1" parent="1">
-          <mxGeometry x="480" y="940" width="260" height="170" as="geometry" />
+        <mxCell id="Xh-Z-r_3Uq9DUZm3Ed1n-5" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;分别维护2个key:&amp;nbsp;&amp;nbsp;route:rjy:{tv_id}&amp;nbsp;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; route:rjy_tv:{tv_id}&lt;/h3&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="834.5" y="880" width="350" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
