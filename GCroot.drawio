@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.0.14" pages="6">
   <diagram id="6nroXhzHqXDf4n0dbmEr" name="第 1 页">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -379,6 +379,44 @@
         </mxCell>
         <mxCell id="OTVvN5V0rC6wqfY4YFDk-14" value="心率变异性数据200K" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="240" y="320" width="320" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rvxG2H_GHbX2NcbY0U02" name="锐健营TV websocket设计">
+    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=0;" edge="1" parent="1" source="vo5_fUDakvxgKuiAdnZY-1" target="vo5_fUDakvxgKuiAdnZY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;TV&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="20" y="270" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=0;" edge="1" parent="1" source="vo5_fUDakvxgKuiAdnZY-2" target="vo5_fUDakvxgKuiAdnZY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-2" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;锐健营&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Server&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="450" y="480" width="260" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-8" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;userId&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-9" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;tv_id&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-10" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;deviceid = tv_id&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-11" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;deviceId&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="880" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vo5_fUDakvxgKuiAdnZY-13" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="827" y="412.5" width="430" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
