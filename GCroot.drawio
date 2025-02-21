@@ -384,7 +384,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rvxG2H_GHbX2NcbY0U02" name="锐健营TV websocket设计">
-    <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -575,10 +575,10 @@
           <mxGeometry x="1510" y="2060" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZypWvPgwzu0_tWEZn6m_-50" value="salve" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;strokeColor=#10739e;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;fillColor=#b1ddf0;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="2220" width="60" height="80" as="geometry" />
+          <mxGeometry x="1420" y="2190" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZypWvPgwzu0_tWEZn6m_-51" value="salve" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;strokeColor=#10739e;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;fillColor=#b1ddf0;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="2200" width="60" height="80" as="geometry" />
+          <mxGeometry x="1600" y="2200" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZypWvPgwzu0_tWEZn6m_-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.866;exitY=1.023;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;shadow=0;strokeColor=#82b366;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#d5e8d4;curved=1;exitPerimeter=0;" edge="1" parent="1" source="ZypWvPgwzu0_tWEZn6m_-38" target="ZypWvPgwzu0_tWEZn6m_-51">
           <mxGeometry relative="1" as="geometry">
@@ -593,25 +593,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZypWvPgwzu0_tWEZn6m_-53" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.198;exitY=1.008;exitDx=0;exitDy=0;entryX=0.075;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;strokeColor=#82b366;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#d5e8d4;curved=1;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1372.96" y="1950.8300000000002" as="sourcePoint" />
-            <mxPoint x="1404.5" y="2279.9500000000003" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1373" y="1962.95" />
-              <mxPoint x="1320" y="1962.95" />
-              <mxPoint x="1320" y="2142.9500000000003" />
-              <mxPoint x="1340" y="2142.9500000000003" />
-              <mxPoint x="1340" y="2272.9500000000003" />
-              <mxPoint x="1380" y="2272.9500000000003" />
-              <mxPoint x="1380" y="2279.9500000000003" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZypWvPgwzu0_tWEZn6m_-55" value="3. 建立连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=#ffe6cc;" vertex="1" connectable="0" parent="ZypWvPgwzu0_tWEZn6m_-53">
-          <mxGeometry x="-0.1917" y="-7" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="ZypWvPgwzu0_tWEZn6m_-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;shadow=0;strokeColor=#82b366;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#d5e8d4;curved=1;" edge="1" parent="1" source="ZypWvPgwzu0_tWEZn6m_-38" target="ZypWvPgwzu0_tWEZn6m_-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
