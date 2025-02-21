@@ -601,6 +601,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZypWvPgwzu0_tWEZn6m_-59" value="master 有一个 &lt;strong style=&quot;color: rgb(248, 57, 41);background-attachment: scroll;background-clip: border-box;background-image: none;background-origin: padding-box;background-position: 0% 0%;background-repeat: no-repeat;background-size: auto;width: auto;height: auto;border-style: none;border-width: 3px;border-color: rgba(0, 0, 0, 0.4);border-radius: 0px;&quot;&gt;sentinel&lt;/strong&gt;:hello 的专用通道，用于哨兵之间发布和订阅消息。" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1790" width="430" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
