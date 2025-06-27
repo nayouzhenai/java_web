@@ -113,7 +113,10 @@
           <mxGeometry x="-2150.5" y="-490" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hmNLhs7aSOasPQDi5UYB-40" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;一级缓存命中场景&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;dashed=1;fillColor=#eeeeee;" vertex="1" parent="1">
-          <mxGeometry x="-2480" y="-644" width="170" height="60" as="geometry" />
+          <mxGeometry x="-2480" y="-630" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmNLhs7aSOasPQDi5UYB-41" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;运行时相关&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;* 1.sql语句与参数相同&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79));&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;* 2.&lt;/span&gt;&lt;span style=&quot;font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;相同的 &lt;/span&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;StatmentId&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;* 3.sqlSession &lt;/span&gt;&lt;span style=&quot;font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;相同&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;* 4.RowBounds &lt;/span&gt;&lt;span style=&quot;font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;相同&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2443.5" y="-560" width="205" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
