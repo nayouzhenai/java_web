@@ -107,7 +107,7 @@
           <mxGeometry x="-2443.5" y="-560" width="205" height="170" as="geometry" />
         </mxCell>
         <mxCell id="hmNLhs7aSOasPQDi5UYB-46" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-2190" y="-560" width="257" height="200" as="geometry" />
+          <mxGeometry x="-2220" y="-560" width="257" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hmNLhs7aSOasPQDi5UYB-35" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#B3B3B3;strokeColor=#FFFFFF;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="hmNLhs7aSOasPQDi5UYB-46">
           <mxGeometry width="257" height="200" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry x="88" y="140" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hmNLhs7aSOasPQDi5UYB-47" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;操作配置相关&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;1.未执行upddate&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;2.未配置flushCache=true&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;3.未手动清空缓存，（提交，回滚）&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;4.缓存作用于不是 STATEMENT&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1910" y="-550" width="240" height="210" as="geometry" />
+          <mxGeometry x="-1930" y="-560" width="260" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
