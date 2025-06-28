@@ -155,7 +155,7 @@
           <mxGeometry x="-1927" y="-170" width="260" height="210" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-9" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;二级缓存执行流程&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;dashed=1;fillColor=#eeeeee;" vertex="1" parent="1">
-          <mxGeometry x="-2470" y="100" width="170" height="60" as="geometry" />
+          <mxGeometry x="-2450" y="150" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="RMZ8sAWD6F0i_Kk_ml5E-10" target="RMZ8sAWD6F0i_Kk_ml5E-11">
           <mxGeometry relative="1" as="geometry" />
