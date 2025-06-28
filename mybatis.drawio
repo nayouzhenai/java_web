@@ -215,10 +215,10 @@
           <mxGeometry x="-2352" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-29" value="setObjcet&lt;div&gt;【填充暂存区】&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="-2352" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2355.5" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-31" value="&lt;font style=&quot;color: light-dark(rgb(248, 242, 242), rgb(237, 237, 237));&quot;&gt;二级缓存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(248, 242, 242), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=light-dark(#808080,#203A00);strokeColor=light-dark(#f3f5f7, #babdc0);" vertex="1" parent="1">
-          <mxGeometry x="-2172" y="690" width="60" height="80" as="geometry" />
+          <mxGeometry x="-2172" y="760" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.469;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="RMZ8sAWD6F0i_Kk_ml5E-11" target="RMZ8sAWD6F0i_Kk_ml5E-22">
           <mxGeometry relative="1" as="geometry" />
@@ -233,7 +233,7 @@
           <mxGeometry x="-2060" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-42" value="clearLocalCache&lt;div&gt;【清理暂存区】&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=light-dark(#FF6666,#FF9281);fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-2060" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2060" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-44" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font color=&quot;#fdf7f7&quot;&gt;flushCache&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-1980" y="410" width="80" height="20" as="geometry" />
@@ -245,10 +245,16 @@
           <mxGeometry x="-1890" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-48" value="commit&lt;br&gt;【提交暂存区】" style="rounded=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1890" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1890" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="RMZ8sAWD6F0i_Kk_ml5E-48" target="RMZ8sAWD6F0i_Kk_ml5E-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-53" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=light-dark(#272626, #996500);fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-2075" y="440" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-54" value="TransactionCache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3A5431;fillColor=light-dark(#050605, #718769);fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-2125" y="710" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
