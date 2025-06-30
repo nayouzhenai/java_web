@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="27.1.6" pages="2">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="4547" dy="2272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+    <mxGraphModel dx="3906" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -151,9 +151,6 @@
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-7" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font color=&quot;#fdf7f7&quot;&gt;key:value&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="RMZ8sAWD6F0i_Kk_ml5E-3" vertex="1">
           <mxGeometry x="88" y="140" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-8" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;操作配置相关&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;1.未执行upddate&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;2.未配置flushCache=true&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;3.未手动清空缓存，（提交，回滚）&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;font-style: italic; color: light-dark(rgb(13, 12, 12), rgb(73, 74, 79)); background-color: light-dark(rgb(205, 164, 126), rgb(237, 237, 237)); font-size: 11.3pt; white-space: normal;&quot;&gt;4.缓存作用于不是 STATEMENT&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1927" y="-170" width="260" height="210" as="geometry" />
-        </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-9" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;二级缓存执行流程&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;dashed=1;fillColor=#eeeeee;" parent="1" vertex="1">
           <mxGeometry x="-2450" y="150" width="170" height="60" as="geometry" />
         </mxCell>
@@ -255,6 +252,39 @@
         </mxCell>
         <mxCell id="RMZ8sAWD6F0i_Kk_ml5E-54" value="TransactionCache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3A5431;fillColor=light-dark(#050605, #718769);fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-2125" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-112" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;二级缓存配置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-180" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-114" value="cacheEnabled" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-140" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-115" value="二级缓存全局配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-117" value="useCache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-100" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-118" value="statement 缓存开关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="-100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-119" value="flushCache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-60" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-120" value="清除，默认修改true,查询false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-121" value="@CacheNamespace&lt;div&gt;或者&lt;/div&gt;&lt;div&gt;&amp;lt;cache/&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-122" value="声明缓存空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="-20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-123" value="&lt;div&gt;@CacheNamespaceRef或者&lt;/div&gt;&lt;div&gt;&amp;lt;cache-ref /&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDBC314-pH6mvyr1H8q9-124" value="引用缓存空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="20" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
