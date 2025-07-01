@@ -346,10 +346,13 @@
           <mxGeometry x="-2211" y="1640" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jrMWFBtfgSmCJR3Sp5wx-7" value="TransactionalCacheManager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1942" y="1370" width="162" height="30" as="geometry" />
+          <mxGeometry x="-1946" y="1360" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jrMWFBtfgSmCJR3Sp5wx-8" value="SqlSession" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1942" y="1265" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jrMWFBtfgSmCJR3Sp5wx-9" value="Map&lt;Cache, TransactionalCache&gt;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1942" y="1390" width="262" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
