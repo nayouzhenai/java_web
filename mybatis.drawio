@@ -352,7 +352,7 @@
           <mxGeometry x="-1942" y="1265" width="72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jrMWFBtfgSmCJR3Sp5wx-9" value="Map&lt;Cache, TransactionalCache&gt;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1942" y="1390" width="262" height="50" as="geometry" />
+          <mxGeometry x="-1942" y="1400" width="262" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
