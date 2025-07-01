@@ -287,10 +287,28 @@
           <mxGeometry x="-1800" y="20" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k-GLsTSNxxvqujk9pTBZ-1" value="&lt;font style=&quot;color: light-dark(rgb(243, 241, 241), rgb(237, 237, 237));&quot;&gt;会话1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#f3f5f7, #babdc0);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#808080,#203A00);" vertex="1" parent="1">
-          <mxGeometry x="-2410" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2440" y="900" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k-GLsTSNxxvqujk9pTBZ-2" value="&lt;font style=&quot;color: light-dark(rgb(243, 241, 241), rgb(237, 237, 237));&quot;&gt;会话2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#f3f5f7, #babdc0);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#808080,#203A00);" vertex="1" parent="1">
-          <mxGeometry x="-2202" y="920" width="120" height="60" as="geometry" />
+        <mxCell id="k-GLsTSNxxvqujk9pTBZ-3" value="&lt;font style=&quot;color: light-dark(rgb(243, 241, 241), rgb(237, 237, 237));&quot;&gt;事务缓存管理器&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(243, 241, 241), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#f3f5f7, #babdc0);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#808080,#203A00);" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="1010" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k-GLsTSNxxvqujk9pTBZ-5" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font color=&quot;#fdf7f7&quot;&gt;暂存区1&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-2420" y="1050" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-GLsTSNxxvqujk9pTBZ-6" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font color=&quot;#fdf7f7&quot;&gt;暂存区2&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-2325.5" y="1050" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-GLsTSNxxvqujk9pTBZ-9" value="&lt;font style=&quot;color: light-dark(rgb(243, 241, 241), rgb(237, 237, 237));&quot;&gt;会话2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#f3f5f7, #babdc0);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#808080,#203A00);" vertex="1" parent="1">
+          <mxGeometry x="-2177" y="900" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k-GLsTSNxxvqujk9pTBZ-10" value="&lt;font style=&quot;color: light-dark(rgb(243, 241, 241), rgb(237, 237, 237));&quot;&gt;事务缓存管理器&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(243, 241, 241), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#f3f5f7, #babdc0);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#808080,#203A00);" vertex="1" parent="1">
+          <mxGeometry x="-2177" y="1010" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k-GLsTSNxxvqujk9pTBZ-11" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font color=&quot;#fdf7f7&quot;&gt;暂存区1&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-2157" y="1050" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-GLsTSNxxvqujk9pTBZ-12" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;font color=&quot;#fdf7f7&quot;&gt;暂存区2&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-2062.5" y="1050" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
