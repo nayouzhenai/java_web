@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="27.2.0" pages="2">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="3296" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+    <mxGraphModel dx="4547" dy="2272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -360,8 +360,35 @@
         <mxCell id="jrMWFBtfgSmCJR3Sp5wx-13" value="&lt;p style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin: 0.8em 0px; white-space-collapse: preserve; position: relative; color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot; class=&quot;md-end-block md-p&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;2.如果mapper使用了xml, 但是mapper 添加了@CacheNamespace注解，缓存不会生效 MapperAnnotationBuilder.java:173-182&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin: 0.8em 0px; white-space-collapse: preserve; position: relative; color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot; class=&quot;md-end-block md-p md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;3.但要实现 XML 和注解之间的缓存共享，必须显式使用 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-pair-s&quot; spellcheck=&quot;false&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--monospace); vertical-align: initial; border: 1px solid rgb(231, 234, 237); background-color: rgb(243, 244, 244); border-radius: 3px; padding: 0px 2px; font-size: 0.9em;&quot;&gt;@CacheNamespaceRef&lt;/code&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt; 注解来建立引用关系。&lt;/span&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="-2032" y="1460" width="372" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="KJ89hGUuPM9WI19fbig4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2365" y="2530" width="120" height="60" as="geometry" />
+        <mxCell id="KJ89hGUuPM9WI19fbig4-1" value="Executor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2450" y="2520" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-2" value="Base&lt;div&gt;StatementHandler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2287" y="2520" width="117" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-4" value="Prepared&lt;div&gt;StatementHandler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2090" y="2520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-5" value="Paramter&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1904.5" y="2520" width="124.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-6" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ResultSetHandler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1720" y="2520" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-8" value="执行器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2450" y="2490" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-9" value="基础jdbc接口处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2287" y="2490" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-10" value="预处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2090" y="2490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-11" value="参数处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1904" y="2490" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-12" value="结果集处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1720" y="2490" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
