@@ -361,7 +361,7 @@
           <mxGeometry x="-2032" y="1460" width="372" height="190" as="geometry" />
         </mxCell>
         <mxCell id="KJ89hGUuPM9WI19fbig4-1" value="Executor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-2450" y="2520" width="85" height="50" as="geometry" />
+          <mxGeometry x="-2450" y="2520" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KJ89hGUuPM9WI19fbig4-2" value="Base&lt;div&gt;StatementHandler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="-2287" y="2520" width="117" height="50" as="geometry" />
@@ -376,19 +376,22 @@
           <mxGeometry x="-1720" y="2520" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KJ89hGUuPM9WI19fbig4-8" value="执行器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2450" y="2490" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KJ89hGUuPM9WI19fbig4-9" value="基础jdbc接口处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2287" y="2490" width="117" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KJ89hGUuPM9WI19fbig4-10" value="预处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2090" y="2490" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KJ89hGUuPM9WI19fbig4-11" value="参数处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1904" y="2490" width="124" height="30" as="geometry" />
+          <mxGeometry x="-2202" y="2400" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KJ89hGUuPM9WI19fbig4-12" value="结果集处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1720" y="2490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-13" value="&lt;font color=&quot;#f6f4f4&quot;&gt;执行器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#4D4D4D,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="-2450" y="2490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-15" value="&lt;span style=&quot;color: rgb(246, 244, 244);&quot;&gt;基础jdbc接口处理器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#4D4D4D,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="-2285.5" y="2490" width="115.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-16" value="&lt;font color=&quot;#f6f4f4&quot;&gt;预处理器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#4D4D4D,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="-2090" y="2490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-17" value="&lt;font color=&quot;#f6f4f4&quot;&gt;参数处理器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#4D4D4D,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="-1904.5" y="2490" width="124.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
