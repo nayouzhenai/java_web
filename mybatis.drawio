@@ -378,9 +378,6 @@
         <mxCell id="KJ89hGUuPM9WI19fbig4-8" value="执行器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2202" y="2400" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KJ89hGUuPM9WI19fbig4-12" value="结果集处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1720" y="2490" width="130" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="KJ89hGUuPM9WI19fbig4-13" value="&lt;font color=&quot;#f6f4f4&quot;&gt;执行器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#4D4D4D,#EDEDED);" vertex="1" parent="1">
           <mxGeometry x="-2450" y="2490" width="90" height="30" as="geometry" />
         </mxCell>
@@ -392,6 +389,9 @@
         </mxCell>
         <mxCell id="KJ89hGUuPM9WI19fbig4-17" value="&lt;font color=&quot;#f6f4f4&quot;&gt;参数处理器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#4D4D4D,#EDEDED);" vertex="1" parent="1">
           <mxGeometry x="-1904.5" y="2490" width="124.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ89hGUuPM9WI19fbig4-18" value="&lt;font color=&quot;#f6f4f4&quot;&gt;结果集处理器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#4D4D4D,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="-1720" y="2490" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
