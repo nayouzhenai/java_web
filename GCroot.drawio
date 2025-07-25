@@ -721,6 +721,12 @@
         <mxCell id="HJR9DQLrMG_B_0NcR8g_-37" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="990" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HJR9DQLrMG_B_0NcR8g_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJR9DQLrMG_B_0NcR8g_-40" target="HJR9DQLrMG_B_0NcR8g_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJR9DQLrMG_B_0NcR8g_-40" value="固话或者手机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
