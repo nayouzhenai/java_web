@@ -784,7 +784,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5JcKLdYL4jkGUDhNYrhQ" name="手表">
-    <mxGraphModel dx="2893" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2549" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -838,11 +838,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="huHP90vhMX-jboXKo-Wu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="huHP90vhMX-jboXKo-Wu-4" target="huHP90vhMX-jboXKo-Wu-8">
+        <mxCell id="huHP90vhMX-jboXKo-Wu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huHP90vhMX-jboXKo-Wu-4" target="huHP90vhMX-jboXKo-Wu-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="huHP90vhMX-jboXKo-Wu-3" value="是，返回绑定冲突" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" connectable="0" parent="huHP90vhMX-jboXKo-Wu-2">
-          <mxGeometry x="-0.2683" relative="1" as="geometry">
+        <mxCell id="huHP90vhMX-jboXKo-Wu-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huHP90vhMX-jboXKo-Wu-17">
+          <mxGeometry x="-0.1584" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -863,7 +863,7 @@
           <mxGeometry x="-680.25" y="510" width="119.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="huHP90vhMX-jboXKo-Wu-8" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="-670.5" y="890" width="100" height="60" as="geometry" />
+          <mxGeometry x="-670.5" y="1070" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="huHP90vhMX-jboXKo-Wu-9" value="写入设备表" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="-410" y="710" width="100" height="80" as="geometry" />
@@ -873,6 +873,9 @@
         </mxCell>
         <mxCell id="huHP90vhMX-jboXKo-Wu-12" value="1.每个学校对应一个最大的校内唯一标识" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="-500" y="515" width="410" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="huHP90vhMX-jboXKo-Wu-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;glass=0;shadow=0;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-680.25" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
