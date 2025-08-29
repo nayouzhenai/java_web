@@ -788,6 +788,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="huHP90vhMX-jboXKo-Wu-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="680" width="480" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="QJprNTU_kOfGhx925Lzu-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;entryPerimeter=0;" parent="1" source="QJprNTU_kOfGhx925Lzu-6" target="QJprNTU_kOfGhx925Lzu-34" edge="1">
           <mxGeometry x="-0.002" relative="1" as="geometry">
             <mxPoint x="-547" y="260" as="sourcePoint" />
@@ -872,7 +875,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="huHP90vhMX-jboXKo-Wu-12" value="1.每个学校对应一个最大的校内唯一标识" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="515" width="410" height="95" as="geometry" />
+          <mxGeometry x="-500" y="515" width="330" height="95" as="geometry" />
         </mxCell>
         <mxCell id="huHP90vhMX-jboXKo-Wu-15" value="redis 设备code加1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;glass=0;shadow=0;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-680.25" y="880" width="120" height="60" as="geometry" />
@@ -884,6 +887,12 @@
           <mxGeometry x="-0.1151" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="huHP90vhMX-jboXKo-Wu-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;noLabel=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="680" width="50" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="huHP90vhMX-jboXKo-Wu-24" value="整个过程学校维度加锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="730" width="190" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
