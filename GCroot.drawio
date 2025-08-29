@@ -865,17 +865,25 @@
         <mxCell id="huHP90vhMX-jboXKo-Wu-8" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="-670.5" y="1070" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="huHP90vhMX-jboXKo-Wu-9" value="写入设备表" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="710" width="100" height="80" as="geometry" />
+        <mxCell id="huHP90vhMX-jboXKo-Wu-9" value="查询DB,获取device_code" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="705" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="huHP90vhMX-jboXKo-Wu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="huHP90vhMX-jboXKo-Wu-9" target="huHP90vhMX-jboXKo-Wu-8">
+        <mxCell id="huHP90vhMX-jboXKo-Wu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="huHP90vhMX-jboXKo-Wu-9" target="huHP90vhMX-jboXKo-Wu-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="huHP90vhMX-jboXKo-Wu-12" value="1.每个学校对应一个最大的校内唯一标识" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="-500" y="515" width="410" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="huHP90vhMX-jboXKo-Wu-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;glass=0;shadow=0;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="huHP90vhMX-jboXKo-Wu-15" value="redis 设备code加1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;glass=0;shadow=0;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-680.25" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huHP90vhMX-jboXKo-Wu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="huHP90vhMX-jboXKo-Wu-15" target="huHP90vhMX-jboXKo-Wu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huHP90vhMX-jboXKo-Wu-20" value="返回 自增后的device_code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huHP90vhMX-jboXKo-Wu-19">
+          <mxGeometry x="-0.1151" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
