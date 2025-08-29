@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1" pages="8">
   <diagram id="6nroXhzHqXDf4n0dbmEr" name="第 1 页">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -779,6 +779,69 @@
             <mxPoint x="310" y="1720" as="sourcePoint" />
             <mxPoint x="440" y="1670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5JcKLdYL4jkGUDhNYrhQ" name="手表">
+    <mxGraphModel dx="984" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QJprNTU_kOfGhx925Lzu-1" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="QJprNTU_kOfGhx925Lzu-6" target="QJprNTU_kOfGhx925Lzu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="QJprNTU_kOfGhx925Lzu-3" target="QJprNTU_kOfGhx925Lzu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-3" value="请求OCR" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="770" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJprNTU_kOfGhx925Lzu-6" target="QJprNTU_kOfGhx925Lzu-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="607.1034482758623" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-5" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="QJprNTU_kOfGhx925Lzu-4">
+          <mxGeometry x="-0.2457" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-6" value="检查redis缓存是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="524" y="270" width="133" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-7" value="保存请求数据" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="530.5" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="QJprNTU_kOfGhx925Lzu-9" target="QJprNTU_kOfGhx925Lzu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-9" value="OCR解析接口" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="353" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontSize=14;fontColor=default;curved=1;" edge="1" parent="1" source="QJprNTU_kOfGhx925Lzu-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-11" value="后台人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-15" value="绑定请求" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="QJprNTU_kOfGhx925Lzu-16" target="QJprNTU_kOfGhx925Lzu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-18" value="device_code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" connectable="0" parent="QJprNTU_kOfGhx925Lzu-17">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJprNTU_kOfGhx925Lzu-16" value="绑定请求" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="530.5" y="120" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
