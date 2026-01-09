@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="9">
   <diagram id="6nroXhzHqXDf4n0dbmEr" name="第 1 页">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -893,6 +893,73 @@
         </mxCell>
         <mxCell id="huHP90vhMX-jboXKo-Wu-24" value="整个过程学校维度加锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-190" y="730" width="190" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KItp3v3XXwAai8_YOCyQ" name="resilience4j-滑动窗口">
+    <mxGraphModel dx="1722" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="28sbq0--Zk0vklJPDNLk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;11:59:59&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="28sbq0--Zk0vklJPDNLk-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="0" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;curved=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="160" as="sourcePoint" />
+            <mxPoint x="200" y="159.57999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-18" connectable="0" parent="-XGKG3DCgX014CuVOgxr-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="当前指针" vertex="1">
+          <mxGeometry relative="1" x="-0.0571" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;12:00:00&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="1" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;12:00:01&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="2" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;12:00:02&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="3" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;12:00:03&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="4" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;12:00:04&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="5" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="..." vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(248, 248, 248);&quot;&gt;12:00:08&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="-XGKG3DCgX014CuVOgxr-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;9&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
