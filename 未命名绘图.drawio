@@ -19,6 +19,15 @@
         <mxCell id="ny81XoZSeVXf7SA_HCT2-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="内核态" vertex="1">
           <mxGeometry height="60" width="120" x="100" y="740" as="geometry" />
         </mxCell>
+        <mxCell id="ny81XoZSeVXf7SA_HCT2-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="320" width="130" x="560" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ny81XoZSeVXf7SA_HCT2-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="IO操作" vertex="1">
+          <mxGeometry height="40" width="95" x="577.5" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ny81XoZSeVXf7SA_HCT2-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="IO操作" vertex="1">
+          <mxGeometry height="40" width="95" x="630" y="660" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
