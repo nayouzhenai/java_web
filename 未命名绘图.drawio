@@ -13,6 +13,14 @@
             <mxPoint x="526.25" y="719.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ny81XoZSeVXf7SA_HCT2-57" edge="1" parent="1" source="ny81XoZSeVXf7SA_HCT2-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.015;entryY=0.451;entryDx=0;entryDy=0;curved=1;entryPerimeter=0;" target="ny81XoZSeVXf7SA_HCT2-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ny81XoZSeVXf7SA_HCT2-58" connectable="0" parent="ny81XoZSeVXf7SA_HCT2-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="写入IO操作" vertex="1">
+          <mxGeometry relative="1" x="-0.0368" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ny81XoZSeVXf7SA_HCT2-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="用户态" vertex="1">
           <mxGeometry height="60" width="120" x="100" y="630" as="geometry" />
         </mxCell>
@@ -22,18 +30,15 @@
         <mxCell id="ny81XoZSeVXf7SA_HCT2-54" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ny81XoZSeVXf7SA_HCT2-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="559" y="770" />
+              <mxPoint x="550" y="740" />
+              <mxPoint x="550" y="770" />
             </Array>
             <mxPoint x="559" y="740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ny81XoZSeVXf7SA_HCT2-55" edge="1" parent="1" source="ny81XoZSeVXf7SA_HCT2-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ny81XoZSeVXf7SA_HCT2-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="680" />
-              <mxPoint x="390" y="680" />
-              <mxPoint x="390" y="660" />
-            </Array>
+        <mxCell id="ny81XoZSeVXf7SA_HCT2-56" connectable="0" parent="ny81XoZSeVXf7SA_HCT2-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="读取 IO操作" vertex="1">
+          <mxGeometry relative="1" x="0.0714" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ny81XoZSeVXf7SA_HCT2-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
