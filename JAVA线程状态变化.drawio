@@ -54,7 +54,7 @@
         <mxCell id="-MD85wsI__NYyljHFUac-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="其他客户端" vertex="1">
           <mxGeometry height="30" width="75" x="565" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="-MD85wsI__NYyljHFUac-23" edge="1" parent="1" source="-MD85wsI__NYyljHFUac-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-MD85wsI__NYyljHFUac-22">
+        <mxCell id="-MD85wsI__NYyljHFUac-23" edge="1" parent="1" source="-MD85wsI__NYyljHFUac-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="-MD85wsI__NYyljHFUac-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-MD85wsI__NYyljHFUac-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
@@ -109,7 +109,12 @@
           <mxGeometry height="350" width="20" x="415" y="35" as="geometry" />
         </mxCell>
         <mxCell id="-MD85wsI__NYyljHFUac-40" edge="1" parent="1" source="-MD85wsI__NYyljHFUac-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.533;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="-MD85wsI__NYyljHFUac-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="234" />
+              <mxPoint x="426" y="234" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
