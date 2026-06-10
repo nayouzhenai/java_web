@@ -130,6 +130,12 @@
         <mxCell id="-MD85wsI__NYyljHFUac-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="130" width="630" x="99" y="940" as="geometry" />
         </mxCell>
+        <mxCell id="-MD85wsI__NYyljHFUac-46" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="共享DB" vertex="1">
+          <mxGeometry height="80" width="60" x="357.5" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="-MD85wsI__NYyljHFUac-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;数据存储&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="67.5" y="990" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
