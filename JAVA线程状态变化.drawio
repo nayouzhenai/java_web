@@ -76,8 +76,8 @@
         <mxCell id="-MD85wsI__NYyljHFUac-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;后台服务&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;领域层&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="67.5" y="715" as="geometry" />
         </mxCell>
-        <mxCell id="-MD85wsI__NYyljHFUac-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nginx" vertex="1">
-          <mxGeometry height="30" width="75" x="107.5" y="770" as="geometry" />
+        <mxCell id="-MD85wsI__NYyljHFUac-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="内网部署" vertex="1">
+          <mxGeometry height="30" width="75" x="120" y="770" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
